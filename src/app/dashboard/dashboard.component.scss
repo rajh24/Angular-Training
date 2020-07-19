@@ -1,0 +1,35 @@
+/*.widget {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 613px;
+  top: 148px;
+  .test {
+    width: 120px;
+    height: 177px;
+    margin-left: 26px;
+    margin-right: 26px;
+    left: 613px;
+    top: 148px;
+    background:#1E213A;
+  }
+}
+
+.sidebar {
+  position: absolute;
+  width: 459px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #1e213a;
+}
+*/
+.dashboard{
+    color: white
+}
+h1 {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+}

@@ -1,0 +1,21 @@
+<!-- <ng-container *ngIf="searchOn;else sidebar">
+    <app-search></app-search>
+</ng-container>
+<ng-template #sidebar>    
+</ng-template> -->
+
+<div class="list-items">
+    <div class="list-item" [routerLink]="['dashboard']">
+        <i class="material-icons">bookmark_border</i>
+        Item 1
+    </div>
+    <div class="list-item" [routerLink]="['search']">
+        <i class="material-icons">bookmark_border</i>
+        Item 2
+    </div>
+    <div class="list-item">
+        <i class="material-icons">bookmark_border</i>
+        Item 3
+    </div>
+</div>
+<router-outlet></router-outlet>
